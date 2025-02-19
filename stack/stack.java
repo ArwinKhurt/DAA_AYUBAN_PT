@@ -9,7 +9,7 @@ public class stack {
         Deque<String> basket = new ArrayDeque<>();
         System.out.print("How many fruits would you like to catch? ");
         int numFruits = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline
+        scanner.nextLine(); 
 
         for (int i = 0; i < numFruits; i++) {
             System.out.print("Choose a fruit (A for apple, O for orange, M for mango, G for guava): ");
